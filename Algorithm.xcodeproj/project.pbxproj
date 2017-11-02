@@ -15,6 +15,7 @@
 		AA0745441FAB197A00CAFD55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0745431FAB197A00CAFD55 /* main.m */; };
 		AA07454E1FAB197A00CAFD55 /* AlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA07454D1FAB197A00CAFD55 /* AlgorithmTests.m */; };
 		AA0745591FAB197A00CAFD55 /* AlgorithmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0745581FAB197A00CAFD55 /* AlgorithmUITests.m */; };
+		AA0745691FAB19F000CAFD55 /* BubbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0745681FAB19F000CAFD55 /* BubbleManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AA0745541FAB197A00CAFD55 /* AlgorithmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0745581FAB197A00CAFD55 /* AlgorithmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmUITests.m; sourceTree = "<group>"; };
 		AA07455A1FAB197A00CAFD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0745671FAB19F000CAFD55 /* BubbleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleManager.h; sourceTree = "<group>"; };
+		AA0745681FAB19F000CAFD55 /* BubbleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		AA0745331FAB197A00CAFD55 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				AA0745661FAB199200CAFD55 /* 冒泡算法 */,
 				AA0745341FAB197A00CAFD55 /* AppDelegate.h */,
 				AA0745351FAB197A00CAFD55 /* AppDelegate.m */,
 				AA0745371FAB197A00CAFD55 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				AA07455A1FAB197A00CAFD55 /* Info.plist */,
 			);
 			path = AlgorithmUITests;
+			sourceTree = "<group>";
+		};
+		AA0745661FAB199200CAFD55 /* 冒泡算法 */ = {
+			isa = PBXGroup;
+			children = (
+				AA0745671FAB19F000CAFD55 /* BubbleManager.h */,
+				AA0745681FAB19F000CAFD55 /* BubbleManager.m */,
+			);
+			path = "冒泡算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0745391FAB197A00CAFD55 /* ViewController.m in Sources */,
+				AA0745691FAB19F000CAFD55 /* BubbleManager.m in Sources */,
 				AA0745441FAB197A00CAFD55 /* main.m in Sources */,
 				AA0745361FAB197A00CAFD55 /* AppDelegate.m in Sources */,
 			);

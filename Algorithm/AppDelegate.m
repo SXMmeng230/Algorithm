@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BubbleManager.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSMutableArray *arr = @[@3,@1,@5,@8,@10,@6,@19,@4].mutableCopy;
+    [BubbleManager bubbleWithArray:arr];
+    NSLog(@"%@",arr);
     return YES;
 }
 
