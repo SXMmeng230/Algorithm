@@ -17,6 +17,7 @@
 		AA0745591FAB197A00CAFD55 /* AlgorithmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0745581FAB197A00CAFD55 /* AlgorithmUITests.m */; };
 		AA0745691FAB19F000CAFD55 /* BubbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0745681FAB19F000CAFD55 /* BubbleManager.m */; };
 		AA5AF7081FAC0EE90009912F /* InsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AF7071FAC0EE90009912F /* InsertSort.m */; };
+		AA5AF70C1FAC521B0009912F /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AF70B1FAC521B0009912F /* ShellSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		AA0745681FAB19F000CAFD55 /* BubbleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleManager.m; sourceTree = "<group>"; };
 		AA5AF7061FAC0EE90009912F /* InsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
 		AA5AF7071FAC0EE90009912F /* InsertSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSort.m; sourceTree = "<group>"; };
+		AA5AF70A1FAC521B0009912F /* ShellSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
+		AA5AF70B1FAC521B0009912F /* ShellSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		AA0745331FAB197A00CAFD55 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				AA5AF7091FAC52020009912F /* 希尔排序算法 */,
 				AA5AF7051FAC0ECD0009912F /* 插入算法 */,
 				AA0745661FAB199200CAFD55 /* 冒泡算法 */,
 				AA0745341FAB197A00CAFD55 /* AppDelegate.h */,
@@ -156,6 +160,15 @@
 				AA5AF7071FAC0EE90009912F /* InsertSort.m */,
 			);
 			path = "插入算法";
+			sourceTree = "<group>";
+		};
+		AA5AF7091FAC52020009912F /* 希尔排序算法 */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AF70A1FAC521B0009912F /* ShellSort.h */,
+				AA5AF70B1FAC521B0009912F /* ShellSort.m */,
+			);
+			path = "希尔排序算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5AF70C1FAC521B0009912F /* ShellSort.m in Sources */,
 				AA5AF7081FAC0EE90009912F /* InsertSort.m in Sources */,
 				AA0745391FAB197A00CAFD55 /* ViewController.m in Sources */,
 				AA0745691FAB19F000CAFD55 /* BubbleManager.m in Sources */,

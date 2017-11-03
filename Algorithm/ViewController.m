@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "BubbleManager.h"
 #import "InsertSort.h"
-
+#import "ShellSort.h"
 @interface ViewController ()
 
 @end
@@ -25,7 +25,9 @@
     //    [BubbleManager bubbleWithArray:arr];
     //插入排序
     //    [InsertSort insertSortWithArr:arr];
-    [InsertSort half_insertSortWithArr:arr];
+//    [InsertSort half_insertSortWithArr:arr];
+    [ShellSort shellSortWithArr:arr];
+    
     NSLog(@"%@",arr);
 
 }
