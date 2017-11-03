@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "BubbleManager.h"
+#import "InsertSort.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSMutableArray *arr = @[@3,@1,@5,@8,@10,@6,@19,@4].mutableCopy;
+    //冒泡排序
+    //    [BubbleManager bubbleWithArray:arr];
+    //插入排序
+    //    [InsertSort insertSortWithArr:arr];
+    [InsertSort half_insertSortWithArr:arr];
+    NSLog(@"%@",arr);
+
 }
 
 
