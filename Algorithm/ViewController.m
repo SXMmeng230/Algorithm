@@ -26,6 +26,7 @@
     //插入排序
     //    [InsertSort insertSortWithArr:arr];
 //    [InsertSort half_insertSortWithArr:arr];
+    //希尔排序
     [ShellSort shellSortWithArr:arr];
     
     NSLog(@"%@",arr);
