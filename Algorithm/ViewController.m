@@ -10,6 +10,9 @@
 #import "BubbleManager.h"
 #import "InsertSort.h"
 #import "ShellSort.h"
+#import "QuickSort.h"
+#import "Heapsort.h"
+
 @interface ViewController ()
 
 @end
@@ -27,8 +30,11 @@
     //    [InsertSort insertSortWithArr:arr];
 //    [InsertSort half_insertSortWithArr:arr];
     //希尔排序
-    [ShellSort shellSortWithArr:arr];
-    
+//    [ShellSort shellSortWithArr:arr];
+    //快速排序
+//    [QuickSort quickSortWithLeft:0 right:arr.count - 1 arr:arr];
+    //堆排序
+    [Heapsort heapSortWithArr:arr];
     NSLog(@"%@",arr);
 
 }

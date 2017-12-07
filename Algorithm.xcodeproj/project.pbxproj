@@ -16,8 +16,10 @@
 		AA07454E1FAB197A00CAFD55 /* AlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA07454D1FAB197A00CAFD55 /* AlgorithmTests.m */; };
 		AA0745591FAB197A00CAFD55 /* AlgorithmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0745581FAB197A00CAFD55 /* AlgorithmUITests.m */; };
 		AA0745691FAB19F000CAFD55 /* BubbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0745681FAB19F000CAFD55 /* BubbleManager.m */; };
+		AA0B6BFF1FD9226000A39008 /* Heapsort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0B6BFE1FD9226000A39008 /* Heapsort.m */; };
 		AA5AF7081FAC0EE90009912F /* InsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AF7071FAC0EE90009912F /* InsertSort.m */; };
 		AA5AF70C1FAC521B0009912F /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AF70B1FAC521B0009912F /* ShellSort.m */; };
+		AA5AF7101FAC5F540009912F /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AF70F1FAC5F540009912F /* QuickSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +58,14 @@
 		AA07455A1FAB197A00CAFD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA0745671FAB19F000CAFD55 /* BubbleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleManager.h; sourceTree = "<group>"; };
 		AA0745681FAB19F000CAFD55 /* BubbleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleManager.m; sourceTree = "<group>"; };
+		AA0B6BFD1FD9226000A39008 /* Heapsort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heapsort.h; sourceTree = "<group>"; };
+		AA0B6BFE1FD9226000A39008 /* Heapsort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heapsort.m; sourceTree = "<group>"; };
 		AA5AF7061FAC0EE90009912F /* InsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
 		AA5AF7071FAC0EE90009912F /* InsertSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSort.m; sourceTree = "<group>"; };
 		AA5AF70A1FAC521B0009912F /* ShellSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
 		AA5AF70B1FAC521B0009912F /* ShellSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellSort.m; sourceTree = "<group>"; };
+		AA5AF70E1FAC5F540009912F /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		AA5AF70F1FAC5F540009912F /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,8 @@
 		AA0745331FAB197A00CAFD55 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				AA0B6BFC1FD921F400A39008 /* 堆排序 */,
+				AA5AF70D1FAC5F430009912F /* 快速排序 */,
 				AA5AF7091FAC52020009912F /* 希尔排序算法 */,
 				AA5AF7051FAC0ECD0009912F /* 插入算法 */,
 				AA0745661FAB199200CAFD55 /* 冒泡算法 */,
@@ -153,6 +161,15 @@
 			path = "冒泡算法";
 			sourceTree = "<group>";
 		};
+		AA0B6BFC1FD921F400A39008 /* 堆排序 */ = {
+			isa = PBXGroup;
+			children = (
+				AA0B6BFD1FD9226000A39008 /* Heapsort.h */,
+				AA0B6BFE1FD9226000A39008 /* Heapsort.m */,
+			);
+			path = "堆排序";
+			sourceTree = "<group>";
+		};
 		AA5AF7051FAC0ECD0009912F /* 插入算法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +186,15 @@
 				AA5AF70B1FAC521B0009912F /* ShellSort.m */,
 			);
 			path = "希尔排序算法";
+			sourceTree = "<group>";
+		};
+		AA5AF70D1FAC5F430009912F /* 快速排序 */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AF70E1FAC5F540009912F /* QuickSort.h */,
+				AA5AF70F1FAC5F540009912F /* QuickSort.m */,
+			);
+			path = "快速排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,8 +330,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5AF7101FAC5F540009912F /* QuickSort.m in Sources */,
 				AA5AF70C1FAC521B0009912F /* ShellSort.m in Sources */,
 				AA5AF7081FAC0EE90009912F /* InsertSort.m in Sources */,
+				AA0B6BFF1FD9226000A39008 /* Heapsort.m in Sources */,
 				AA0745391FAB197A00CAFD55 /* ViewController.m in Sources */,
 				AA0745691FAB19F000CAFD55 /* BubbleManager.m in Sources */,
 				AA0745441FAB197A00CAFD55 /* main.m in Sources */,
