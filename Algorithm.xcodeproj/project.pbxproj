@@ -17,6 +17,7 @@
 		AA0745591FAB197A00CAFD55 /* AlgorithmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0745581FAB197A00CAFD55 /* AlgorithmUITests.m */; };
 		AA0745691FAB19F000CAFD55 /* BubbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0745681FAB19F000CAFD55 /* BubbleManager.m */; };
 		AA0B6BFF1FD9226000A39008 /* Heapsort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0B6BFE1FD9226000A39008 /* Heapsort.m */; };
+		AA36B2C81FE914DD003D166E /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA36B2C71FE914DD003D166E /* MergeSort.m */; };
 		AA5AF7081FAC0EE90009912F /* InsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AF7071FAC0EE90009912F /* InsertSort.m */; };
 		AA5AF70C1FAC521B0009912F /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AF70B1FAC521B0009912F /* ShellSort.m */; };
 		AA5AF7101FAC5F540009912F /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AF70F1FAC5F540009912F /* QuickSort.m */; };
@@ -60,6 +61,8 @@
 		AA0745681FAB19F000CAFD55 /* BubbleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleManager.m; sourceTree = "<group>"; };
 		AA0B6BFD1FD9226000A39008 /* Heapsort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heapsort.h; sourceTree = "<group>"; };
 		AA0B6BFE1FD9226000A39008 /* Heapsort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heapsort.m; sourceTree = "<group>"; };
+		AA36B2C61FE914DD003D166E /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		AA36B2C71FE914DD003D166E /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		AA5AF7061FAC0EE90009912F /* InsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
 		AA5AF7071FAC0EE90009912F /* InsertSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSort.m; sourceTree = "<group>"; };
 		AA5AF70A1FAC521B0009912F /* ShellSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
@@ -116,6 +119,7 @@
 		AA0745331FAB197A00CAFD55 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				AA36B2C51FE914B2003D166E /* 归并排序 */,
 				AA0B6BFC1FD921F400A39008 /* 堆排序 */,
 				AA5AF70D1FAC5F430009912F /* 快速排序 */,
 				AA5AF7091FAC52020009912F /* 希尔排序算法 */,
@@ -168,6 +172,15 @@
 				AA0B6BFE1FD9226000A39008 /* Heapsort.m */,
 			);
 			path = "堆排序";
+			sourceTree = "<group>";
+		};
+		AA36B2C51FE914B2003D166E /* 归并排序 */ = {
+			isa = PBXGroup;
+			children = (
+				AA36B2C61FE914DD003D166E /* MergeSort.h */,
+				AA36B2C71FE914DD003D166E /* MergeSort.m */,
+			);
+			path = "归并排序";
 			sourceTree = "<group>";
 		};
 		AA5AF7051FAC0ECD0009912F /* 插入算法 */ = {
@@ -330,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA36B2C81FE914DD003D166E /* MergeSort.m in Sources */,
 				AA5AF7101FAC5F540009912F /* QuickSort.m in Sources */,
 				AA5AF70C1FAC521B0009912F /* ShellSort.m in Sources */,
 				AA5AF7081FAC0EE90009912F /* InsertSort.m in Sources */,
